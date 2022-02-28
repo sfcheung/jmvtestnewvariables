@@ -1,0 +1,19 @@
+---
+name:  addnewvars
+title: Test Adding New Variables
+menuGroup: jmvtestnewvariables
+version: '1.0.0'
+jas: '1.2'
+
+options:
+    - name: data
+      type: Data
+
+    - name: dep
+      title: Dependent Variable
+      type: Variable
+
+    - name: newvar
+      title: New Variable
+      type: Output
+...

@@ -1,0 +1,19 @@
+---
+name:  addnewvars
+title: Test Adding New Variables
+jrs:   '1.1'
+
+items:
+    - name:  text
+      title: Test Adding New Variables
+      type:  Preformatted
+
+    - name: newvar
+      type: Output
+      title: New Variable
+      varTitle: New Variable
+      varDescription: New Variable
+      measureType: continuous
+      clearWith:
+        - dep
+...
